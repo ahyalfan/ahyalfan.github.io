@@ -1,0 +1,86 @@
+.body{
+    background-image:url("../img/back.jpg");
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    background:linear-gradient(to right, rgba(122, 183, 236, 0.8),rgb(157, 178, 240),rgb(96, 96, 243)) ;
+    margin: 5px;
+    border-radius: 20px;
+    box-shadow: -2px -3px 2px rgb(167, 189, 219);
+    padding-top: 1px;
+}
+
+/* header */
+.header{
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* form */
+.nama{
+    text-align: center;
+    margin: 10px;
+}
+/* .nama label{
+    position: absolute;
+    color: rgba(0,0,0,0.5);
+    margin: 5px;
+} */
+.nama .username{
+    padding: 5px;
+    border-radius: 20px;
+}
+
+/* .password label{
+    position: absolute;
+    color: rgba(0,0,0,0.0);
+    margin: 5px;
+} */
+.password{
+    text-align: center;
+    margin: 10px;
+}
+.password .password1{
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.ingat{
+    text-align: center;
+    margin: 10px;
+}
+
+.masuk{
+    text-align: center;
+    background-color: rgb(188, 218, 245);
+    width: 60%;
+    margin: 2px auto 0px;
+    border-radius: 20px;
+}
+
+/* footer */
+.footer {
+    text-align: center;
+    padding: 2px;
+    margin-top: 0px;
+}
+.footer p{
+    margin-top: 0px;
+}
+
+@media only screen and (min-width:768px) {
+    .body{
+        background-image: url("../img/back.jpg")
+    }
+    .content{
+        width: 25%;
+        box-shadow: 2px 3px 2px rgb(217, 228, 237);
+    }
+}
